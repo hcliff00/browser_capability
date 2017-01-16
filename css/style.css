@@ -1,0 +1,49 @@
+body {
+	margin: 20;
+	color: Purple;
+	background-color: Wheat;
+	font-size:20px;
+	font-family: arial;
+}
+
+a {
+	overflow: hidden;
+	height: 30px;
+	text-align: center;
+	color: Purple;
+	padding: 2;
+	text-decoration: none;		
+}
+
+a:hover {
+	color: White;
+	background-color: Teal;
+}
+
+a.focused {
+	color: White;
+	background-color: Teal;
+}
+
+input {
+    background-color: brightgray;
+    color: purple;
+    padding: 2;
+	border: 1px solid gray;
+    font-size: 100%;
+}
+
+input:hover {
+	color: #ffffff;
+	background-color: Teal;
+}
+
+input.focused {
+	color: #ffffff;
+	padding: 2;
+	background-color: Teal;
+}
+
+.menu {
+	line-height: 100%;
+}
